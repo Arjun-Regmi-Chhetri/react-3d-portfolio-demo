@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600;700&family=Seaweed+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Rajdhani', sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body{
+ background-color: #020D15;
+ scroll-behavior: smooth;
+}
+
+
+.bg-green-gradient {
+  background: #02ebef;
+  background: linear-gradient(-90deg, #02ebef 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #02ebef 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.txt-green-gradient {
+  background: linear-gradient(-90deg, #02ebef 0%, rgb(155 12 255) 100%);
+  background: -webkit-linear-gradient(
+    -90deg, #02ebef 0%, rgb(155 12 255) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.gradient-bg{
+   background: radial-gradient(circle farthest-corner at center center, #6fa7e3 -80%, #020D15 45% , #020D15);
+   background: -webkit-radial-gradient(circle farthest-corner at center center, #6fa7e3 -80%, #020D15 45% , #020D15);
+}
+.gradient-bg-big{
+  background:radial-gradient(circle farthest-corner at center, #6fa7e3 -100%, #020D15 49% , #020D15 65%);
+  background: -webkit-radial-gradient(circle farthest-corner at center, #6fa7e3 -100%, #020D15 49% , #020D15 65%);
+}
+
+.linear-bg{
+  background: linear-gradient(40deg, #09314d -21%, #6d0c8a40 87%);
+  background: -webkit-linear-gradient(40deg, #09314d -21%, #6d0c8a40 87%);
+}
+.cursive{
+  font-family: 'Seaweed Script', cursive;
+  line-height: 30px;
+	letter-spacing: 1.3px;
+}
+
+
+
+
